@@ -15,3 +15,9 @@ git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$
 
 //Show all configuration
 git config --list --show-origin
+
+//Create repository in empty folder
+git init //create file .git
+
+//Check changes in repository
+git status
