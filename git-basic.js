@@ -21,3 +21,13 @@ git init //create file .git
 
 //Check changes in repository
 git status
+
+//Workflow Git
+//The Three States :
+//1. Modified - modif di lokal, belum sabe permanen ke repo
+//2. Staged - menandai modif file akan save permanen ke repo - git add
+//3. Committed - sudah aman save di repo - git commit
+//Three Section :
+//1. Working Directory : modified file
+//2. Stagng Area : staged untuk persiapan file ke repository - git add
+//3. Repository : semua riwayat versi file disimpan - git commit
