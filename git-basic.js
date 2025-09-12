@@ -31,3 +31,10 @@ git status
 //1. Working Directory : modified file
 //2. Stagng Area : staged untuk persiapan file ke repository - git add
 //3. Repository : semua riwayat versi file disimpan - git commit
+
+//Hash
+//Snapshot -> semua perubahan yang terjadi di semua file yang dicommit
+//Setiap snapshot akan menghasilkan Hash sebagai identitasnya
+//Git menggunakan algoritma SHA-1 untuk membuat Hash
+//Selain menyimpan perubahan, di Hash juga menyimpan parent (Hash sebelumnya), author & message commit
+ //Head -> pointer menuju Hash paling terakhir
