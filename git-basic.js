@@ -42,4 +42,10 @@ git status
  //Add File
  git add <file name> //add to staging index
  git add . //untuk tambah semua file
+ git status //Untuk check semua status perubahan sementara
  git commit -m "message commit" //commit to repository
+
+ //Update File
+ //Lakukan perubahan pada salah 1 file, kemudian check dengan git status
+ //Akan tertera file yang diedit dengan keterangan modified
+ git diff //Untuk melihat riwayat perubahan file
