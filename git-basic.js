@@ -38,3 +38,8 @@ git status
 //Git menggunakan algoritma SHA-1 untuk membuat Hash
 //Selain menyimpan perubahan, di Hash juga menyimpan parent (Hash sebelumnya), author & message commit
  //Head -> pointer menuju Hash paling terakhir
+
+ //Add File
+ git add <file name> //add to staging index
+ git add . //untuk tambah semua file
+ git commit -m "message commit" //commit to repository
