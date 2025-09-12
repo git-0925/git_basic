@@ -49,3 +49,9 @@ git status
  //Lakukan perubahan pada salah 1 file, kemudian check dengan git status
  //Akan tertera file yang diedit dengan keterangan modified
  git diff //Untuk melihat riwayat perubahan file
+
+ //Delete File
+ //Lakukan delete file seperti biasa
+ //Maka ketika git status akan detect file yang dihapus dengan keterangan deleted
+ //Lakukan juga add & commit untuk delete file tsb di repostiory untuk versi selanjutnya
+ //Namun di versi sebelumnya masih tetap ada
