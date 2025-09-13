@@ -55,3 +55,13 @@ git status
  //Maka ketika git status akan detect file yang dihapus dengan keterangan deleted
  //Lakukan juga add & commit untuk delete file tsb di repostiory untuk versi selanjutnya
  //Namun di versi sebelumnya masih tetap ada
+
+ //Cancel Changes
+ //Jika sudah menambah file di working directory, lalu ingin membatalkannya
+ //Dapat langsung menghapus file2 tersebut, atau dengan perintah :
+ git clean -f
+ //Jika sudah mengedit isi file di working directory, lalu ingin membatalkannya :
+ git restore <namafile> //dapat digunakan juga untuk kembalikan file yang sudah dihapus
+ //Sedangkan untuk membatalkan perubahan di Staging index, perlu dikembalikan dulu ke working directory :
+ git restore --staged <namafile> //contoh case : sudah hapus file di working, dan add ke staging index
+ //Jika sudah commit tidak bisa dibatalkan, hanya bisa di rollback commit/revert commit
