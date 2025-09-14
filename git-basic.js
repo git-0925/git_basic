@@ -123,3 +123,11 @@ ignore.txt
 //Blame
 //Untuk mencari tahu siapa yang membuat perubahan pada file & juga mengetahui commitnya
 git blame <namafile>
+
+//Alias
+//Bisa menambah nama perintah lain untuk perintah yang sudah ada di git
+//Misal menambah perintah co, untuk perintah commit
+//Biasanya untuk mempercepat perintah
+git config --global alias.co commit
+git config --global alias.logone "log --oneline" //perintah lebih satu kata
+git co -m "message" //contoh penggunaan alias
