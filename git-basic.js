@@ -90,3 +90,8 @@ git status
  //Mode --soft -> perubahan yang terjadi hanya di repository, di staging & working directory aman
  //--mixed (default) -> perubahan yang terjadi di repository & staging, di working directory aman
  //--hard -> perubahan yang terjadi di repository, staging & working directory
+
+ //Amend Commit
+ //Digunakan ketika sudah melakukan commit, tapi ada hal yang terlupakan
+ //Selain bisa soft reset, juga bisa dengan command :
+ git commit --amend -m <message>//lakukan perubahan yang terlupa, commit lg dengan --amend (replace hash)
