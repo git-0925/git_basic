@@ -105,3 +105,7 @@ git status
  //Git juga punya fitur melihat perubahan sebelumnya
  git checkout <hash> //menuju snapshot tertentu
  git checkout <namabranch> //menuju perubahan paling awal
+
+ //Revert Commit
+ //Membatalkan commit yang sudah dilakukan dengan membuat commit baru
+ git revert <hash>
