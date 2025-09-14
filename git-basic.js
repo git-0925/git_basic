@@ -82,3 +82,11 @@ git status
  //Sebenarnya rename file adalah gabungan antara hapus file kemudian menambah file baru dengan isi sama
  //Dapat dilihat dengan git status -> akan tertera deleted file kemudian add file renamed
  //Namun ketika git add kedua nama file sebelum & sesudah rename, maka git status akan show renamed saja
+
+ //Reset Commit
+ //Untuk membatalkan commit yang sudah masuk ke repository
+ //Reset commit -> mekanisme geser HEAD pointer ke posisi commit yang kita mau, tapi masih bisa dikembalikan asal belum commit
+ git reset <mode> <hash>
+ //Mode --soft -> perubahan yang terjadi hanya di repository, di staging & working directory aman
+ //--mixed (default) -> perubahan yang terjadi di repository & staging, di working directory aman
+ //--hard -> perubahan yang terjadi di repository, staging & working directory
