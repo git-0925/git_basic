@@ -77,3 +77,8 @@ git status
  //Git dapat membandingkan snapshot/perubahan hasil commit, bukan bandingan perubahan antar commit
  git diff <hash1> <hash2>
  git difftool <hash1> <hash2> //compare lebih detail scr langsung (harus set vscode dulu)
+
+ //Rename File
+ //Sebenarnya rename file adalah gabungan antara hapus file kemudian menambah file baru dengan isi sama
+ //Dapat dilihat dengan git status -> akan tertera deleted file kemudian add file renamed
+ //Namun ketika git add kedua nama file sebelum & sesudah rename, maka git status akan show renamed saja
