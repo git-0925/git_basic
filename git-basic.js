@@ -109,3 +109,13 @@ git status
  //Revert Commit
  //Membatalkan commit yang sudah dilakukan dengan membuat commit baru
  git revert <hash>
+
+ //Ignore
+ //Pengecualian file untuk tidak ditrack oleh git
+ //Dengan tambahkan file .gitignore di repository, dan masukan file/folder apa yang mau di ignore, contoh:
+//# Ignore folder log
+log/
+//# Ignore file .backup
+*.backup
+//# Ignore specific file
+ignore.txt
