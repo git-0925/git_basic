@@ -100,3 +100,8 @@ git status
  //Git punya fitur melihat versi file pada commit sebelumnya
  //Saat mengambil versi sebelumnya, file commit tersebut berada di staging
  git checkout <hash> --namafile
+
+ //Previous Snapshot
+ //Git juga punya fitur melihat perubahan sebelumnya
+ git checkout <hash> //menuju snapshot tertentu
+ git checkout <namabranch> //menuju perubahan paling awal
