@@ -72,3 +72,8 @@ git status
  git log --oneline graph //Commit log dengan grafik antar branch
  git show <code hash> //Commit log lebih detail hash terkait
  git show HEAD //Commit log lebih detail hash terakhir
+
+ //Compare Commit
+ //Git dapat membandingkan snapshot/perubahan hasil commit, bukan bandingan perubahan antar commit
+ git diff <hash1> <hash2>
+ git difftool <hash1> <hash2> //compare lebih detail scr langsung (harus set vscode dulu)
