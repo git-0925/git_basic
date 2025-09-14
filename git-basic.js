@@ -95,3 +95,8 @@ git status
  //Digunakan ketika sudah melakukan commit, tapi ada hal yang terlupakan
  //Selain bisa soft reset, juga bisa dengan command :
  git commit --amend -m <message>//lakukan perubahan yang terlupa, commit lg dengan --amend (replace hash)
+
+ //Previous Version
+ //Git punya fitur melihat versi file pada commit sebelumnya
+ //Saat mengambil versi sebelumnya, file commit tersebut berada di staging
+ git checkout <hash> --namafile
