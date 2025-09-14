@@ -65,3 +65,10 @@ git status
  //Sedangkan untuk membatalkan perubahan di Staging index, perlu dikembalikan dulu ke working directory :
  git restore --staged <namafile> //contoh case : sudah hapus file di working, dan add ke staging index
  //Jika sudah commit tidak bisa dibatalkan, hanya bisa di rollback commit/revert commit
+
+ //Commit Log
+ git log //Melihat commit log
+ git log --oneline //Commit log lebih sederhana
+ git log --oneline graph //Commit log dengan grafik antar branch
+ git show <code hash> //Commit log lebih detail hash terkait
+ git show HEAD //Commit log lebih detail hash terakhir
