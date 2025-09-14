@@ -119,3 +119,7 @@ log/
 *.backup
 //# Ignore specific file
 ignore.txt
+
+//Blame
+//Untuk mencari tahu siapa yang membuat perubahan pada file & juga mengetahui commitnya
+git blame <namafile>
